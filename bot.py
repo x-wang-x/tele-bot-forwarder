@@ -12,7 +12,7 @@ from telegram.ext import (
 )
 
 CONFIG_FILE = "config.json"
-MAX_QUEUE_SIZE = 500
+MAX_QUEUE_SIZE = 25
 
 queue = deque()
 processing = False
